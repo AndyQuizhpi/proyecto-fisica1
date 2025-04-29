@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simulación MRU</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script defer src="sketch.js"></script>
+  <Style>
+        h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1f85d8;
+      text-shadow: 2px 2px #62049c;
+      animation: bounce 2s infinite;
+    }
+  </Style>
+</head>
+<body>
+  <h1>MOVIMIENTO RECTILINEO UNIFORME</h1>
+  <div class="controls">
+    <input type="number" id="velocidad" placeholder="Velocidad (m/s)">
+    <input type="number" id="tiempo" placeholder="Tiempo (s)">
+    <input type="number" id="posInicial" placeholder="Posición inicial (m)">
+    <button onclick="iniciarMRU()">Iniciar</button>
+
+  </div>
+
+  
+</body>
+</html>
